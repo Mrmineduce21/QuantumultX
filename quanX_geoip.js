@@ -166,7 +166,7 @@ var flags = new Map([
   ["TO", "🇹🇴"],
   ["TR", "🇹🇷"],
   ["TV", "🇹🇻"],
-  ["TW", "🇨🇳"],
+  ["TW", "🇹🇼"],
   ["UK", "🇬🇧"],
   ["UM", "🇺🇲"],
   ["US", "🇺🇸"],
@@ -261,4 +261,4 @@ var description =
   "\n" +
   "时区:" +
   obj["timezone"];
-$done({ title, subtitle, ip, description });ss
+$done({ title, subtitle, ip, description });
