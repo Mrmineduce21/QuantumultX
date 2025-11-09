@@ -324,9 +324,9 @@ var flags = new Map([
 
 var body = $response.body;
 var obj = JSON.parse(body);
-var title = flags.get(obj["country_code"]) + " " + Area_check(obj["country"]);
-var subtitle = ISP_ValidCheck(obj["as_name"]);
 var country = obj["country"];
+var title = flags.get(obj["country_code"]) + " " + country;
+var subtitle = ISP_ValidCheck(obj["as_name"]);
 var description =
   "ASN:" +
   obj["asn"] +
